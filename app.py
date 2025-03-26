@@ -36,6 +36,8 @@ def generate_rag_prompt(query, context):
              strike a friendly and conversational tone. You should also be able to relate abbreviated query to its actual meaning. \
              You should also be able to check the appendices in the document provided to link up where the context is present. \
              If the context is irrelevant to the answer, you may ignore it 
+             the query can be in any language or script, you need to understand the script , translate the query into English language and then search for the context. \
+             The answer you provide has to be same as in the language or script used in the query. 
             QUESTION:'{query}'
              CONTEXT='{context}'
 
